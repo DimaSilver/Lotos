@@ -1,0 +1,834 @@
+@media(max-width: 1720px){
+.reviews-img {
+  height: 605px;
+  margin-right: 0;
+  }
+  .reviews-slider {
+    max-width: 1340px;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 105px;
+  }
+  .reviews__textarea {
+    max-width: 500px;
+  }
+}
+@media(max-width: 1590px) {
+  .timetable-box {
+    display: none;
+  }
+  .timetable__block-download {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 28px;
+    padding-left: 0;
+    padding-bottom: 50px;
+    &:before {
+      left: 0;
+      top: 1px;
+      bottom: 0;
+      left: 130px;
+    }
+    &::after {
+      bottom: 8px;
+      left: 141px;
+    }
+  }
+}
+@media(max-width: 1500px){
+  .discount__inner {
+    padding-bottom: 80px;
+    margin: -15px 0 -25px;
+  }
+  .discount__main{
+    margin-left: 95px;
+  }
+  .discount__wrapper {
+    margin-left: 50px;
+  }
+  .trainers-dots {
+    left: 45px;
+  }
+  .discount{
+    margin-top: 100px;
+  }
+  .reviews__main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .reviews-img {
+    height: 320px;
+    width: 430px;
+    margin-top: 0;
+    position: absolute;
+    top: 374px;
+    left: 0
+  }
+}
+@media(max-width: 1430px){
+  .yoga-img{
+    width: 25%;
+  }
+  .yoga-dots {
+    left: 10px;
+  }
+  .yoga-slider{
+    margin-left: 0;
+    margin-right: -150px;
+  }
+  .yoga-img{
+    margin-left: 125px;
+  }
+  .trainers-dots {
+    left: 130px;
+  }
+  .trainers-img__wrapper {
+    left: 80px;
+  }
+  .trainers__textarea-text {
+    font-size: 16px;
+  }
+  .trainers-img {
+    width: 100%;
+    margin-left: -85px;
+  }
+  .trainers-slider{
+    max-width: 950px;
+    margin-left: 100px;
+  }
+  .trainers__textarea{
+    margin-left: 0;
+  }
+  .trainers-img__wrapper::before {
+    width: 250px;
+    height: 250px;
+    left: 5px;
+    top: 50px;
+  }
+  .trainers__main{
+    width: 80%;
+    float: right;
+  }
+  .trainers-slider__item{
+    width: 95%;
+  }
+  .pricing__inner {
+    padding: 30px 0 30px;
+  }
+  .pricing__main {
+    margin-right: -165px;
+  }
+  .pricing-img {
+    margin-right: 0;
+  }
+  .contacts__btn-name{
+    font-size: 14px;
+  }
+}
+@media(max-width: 1400px){
+  .page-numbers__reviews{
+    position: absolute;
+    right: 0;
+  }
+  .contacts-map {
+    margin-right: 0;
+  }
+}
+@media(max-width: 1380px){
+  .first__screen-img {
+    margin-left: 0;
+  }
+  .first__screen-subtitle {
+    padding-top: 140px;
+  }
+}
+@media(max-width: 1320px){
+  .first__screen-main {
+    padding: 70px 0 15px;
+  }
+  .first__screen-img {
+    max-width: 40%;
+  }
+  .discount__main {
+    margin-left: 0;
+  }
+  .discount__wrapper {
+    margin-left: 0;
+  }
+  .discount__form-descr {
+    text-align: center;
+  }
+  .pricing-tariffs {
+    max-width: 90%;
+  }
+}
+@media(max-width: 1300px){
+  .discount-img {
+    margin-left: 0;
+    width: 55%;
+  }
+  .discount__main {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .discount__textarea {
+    text-align: center;
+  }
+  .discount__wrapper {
+    align-items: center;
+  }
+  .discount__textarea-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .discount__textarea-title span {
+    font-size: 65px;
+  }
+  .discount__btn {
+    margin:20px 0 10px;
+  }
+  .discount__inner {
+    padding-bottom: 0;
+  }
+}
+@media(max-width: 1290px){
+  .contacts__main {
+    margin-right: 0;
+  }
+}
+@media(max-width: 1250px){
+  .pricing__main {
+    margin-right: -65px;
+  }
+}
+@media(max-width: 1220px){
+  .first__screen-main {
+    padding: 100px 0 40px;
+  }
+  .first__screen-title {
+    font-size: 175px;
+    margin-left: -30px;
+  }
+  .first__screen-subtitle {
+    padding-left: 20px;
+    padding-top: 120px;
+  }
+}
+@media(max-width: 1200px){
+  .contacts-map {
+    width: 60%;
+  }
+  .contacts__textarea {
+    position: absolute;
+    right: 90px;
+    top: 20px;
+  }
+  .contacts__inner {
+    position: relative;
+  }
+}
+@media(max-width: 1180px){
+  .trainers-dots {
+    left: 50px;
+  }
+  .trainers-img {
+    width: 90%;
+    margin-left: -50px;
+  }
+  .trainers-slider{
+    max-width: 900px;
+    margin-left: 90px;
+  }
+}
+@media(max-width: 1150px){
+  .pricing-img {
+    width: 40%;
+  }
+}
+@media(max-width: 1120px){
+  .first__screen-title {
+    font-size: 165px;
+  }
+  .page-numbers {
+    font-size: 68px;
+  }
+  .yoga__textarea-text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .yoga__textarea-title {
+    font-size: 22px;
+    color: #000000;
+    max-width: 210px;
+    padding-bottom: 0px;
+  }
+  .yoga__textarea-title span {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .yoga-dots {
+    top: 0;
+  }
+  .yoga__main{
+    justify-content: flex-end;
+    margin-right: 115px;
+  }
+  .yoga-img{
+    margin-left: 0;
+  }
+  .page-side__bar{
+    display: none;
+  }
+  .page-side__bar-top{
+    display: block;
+  }
+  .page-side__bar-discount{
+    display: block;
+  }
+  .timetable__block-download{
+    margin-left: 415px;
+  }
+}
+@media(max-width: 1100px){
+  .yoga__textarea {
+    max-width: 400px;
+    margin-left: 70px;
+    padding-right: 50px;
+  }
+  .yoga__textarea-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .page-numbers {
+    position: absolute;
+    right: 0;
+  }
+  .yoga__main{
+    position: relative;
+  }
+  .page-numbers-discount{
+    position: static;
+  }
+}
+@media(max-width: 1080px){
+  .first__screen-main {
+    padding: 150px 0 100px;
+  }
+  .first__screen-subtitle{
+    transform: none;
+    order: 1;
+    display: flex;
+    padding-top: 0;
+  }
+  .first__screen-title{
+    flex-direction: column;
+    margin-left: 80px;
+    padding-bottom: 56px;
+  }
+}
+@media(max-width: 1050px){
+  .trainers__textarea-text {
+    font-size: 14px;
+  }
+  .trainers-slider{
+    margin-left: 20px;
+  }
+  .trainers-img {
+    width: 75%;
+    margin-left: -60px;
+  }
+  .trainers-img__wrapper::before {
+    left: -40px;
+    top: 40px;
+  }
+  .trainers__textarea {
+    padding-top: 30px;
+    margin-left: -60px;
+  }
+}
+@media(max-width: 1020px){
+  .yoga__textarea {
+    margin-left: 25px;
+  }
+  .yoga__main {
+     justify-content: center;
+   }
+  .pricing-img {
+    width: 35%;
+  }
+}
+@media(max-width: 1000px){
+  .first__screen-main {
+    padding: 140px 0 140px;
+  }
+  .first__screen-descr {
+    font-size: 16px;
+    margin-left: 85px;
+  }
+  .pricing-tariff {
+    width: 240px;
+    height: 100px;
+  }
+  .reviews__textarea-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .reviews-img{
+    top: 300px;
+  }
+  .reviews__textarea {
+    max-width: 350px;
+    margin-left: -100px;
+  }
+}
+@media(max-width: 970px){
+  .trainers-dots {
+    left: 0;
+  }
+  .trainers__textarea-descr {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .trainers__textarea-title {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+  .trainers__textarea {
+    max-width: 325px;
+  }
+}
+@media(max-width: 900px){
+  .first__screen-title {
+    font-size: 145px;
+  }
+  .page-numbers {
+    font-size: 55px;
+  }
+  .menu__list {
+    background-color: rgb(248, 237, 222);
+    border-radius: 25px;
+  }
+}
+@media(max-width: 870px){
+  .contacts__textarea {
+    padding-top: 50px;
+  }
+  .contacts-map {
+    width: 50%;
+  }
+  .timetable__block-download{
+    margin-left: 370px;
+  }
+}
+@media(max-width: 860px){
+  .reviews-dots .reviews__dots-box {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .reviews-img {
+    height: 280px;
+    width: 350px;
+  }
+  .reviews__textarea {
+    margin-left: -275px;
+  }
+}
+@media(max-width: 850px){
+  .first__screen-title {
+    margin-left: 65px;
+    font-size: 135px;
+  }
+  .yoga__main {
+    width: 75%;
+  }
+  .trainers-img {
+    width: 60%;
+    margin-top: 50px;
+  }
+  .trainers-img__wrapper::before {
+    display: none;
+  }
+  .trainers__textarea {
+    margin-left: -105px;
+  }
+  .trainers-dots .trainers__dots-box {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .trainers-dots__name {
+    font-size: 16px;
+  }
+  .trainers__textarea-title {
+    font-size: 34px;
+    padding-bottom: 5px;
+  }
+  .trainers__textarea-descr {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+}
+@media(max-width: 820px){
+  .pricing-img {
+    width: 40%;
+  }
+  .pricing__main{
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing__box-btn {
+    top: 10px;
+  }
+}
+@media(max-width: 800px){
+  .first__screen-title {
+    margin-left: 65px;
+    font-size: 125px;
+  }
+  .first__screen-descr {
+    font-size: 16px;
+    margin-left: 85px;
+  }
+  .first__screen-main {
+    margin: 0;
+  }
+  .trainers-img {
+    width: 80%;
+    margin-top: 48px;
+    margin-left: -125px;
+  }
+  .trainers__textarea {
+    margin-left: -95px;
+    max-width: 280px;
+  }
+}
+@media(max-width: 770px){
+  .reviews-dots {
+    left: 0px;
+  }
+  .reviews__textarea-title-text span {
+    font-size: 14px;
+  }
+  .reviews__textarea-title-text {
+    font-size: 20px;
+  }
+  .reviews__textarea {
+    max-width: 280px;
+  }
+  .reviews__textarea-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media(max-width: 730px){
+  .first__screen-img{
+    display: none;
+  }
+  .first__screen-subtitle{
+    justify-content: center;
+  }
+  .first__screen-textarea{
+    text-align: center;
+  }
+  .first__screen-title{
+    margin-left: 0;
+  }
+  .first__screen-descr{
+    padding-left: 0;
+    margin-left: 0;
+    padding-bottom: 60px;
+  }
+  .first__screen-btn {
+    left: 0;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    &:hover{
+      box-shadow: none;
+    }
+  }
+  .timetable__block-download{
+    margin-left: 250px;
+  }
+}
+@media(max-width: 726px){
+  .first__screen-inner,
+  .discount__inner{
+    justify-content: center;
+  }
+  .page-side__bar-top,
+  .page-side__bar-discount{
+    display: none;
+  }
+  .page-numbers{
+    display: none;
+  }
+  .trainers-img{
+    display: none !important;
+  }
+  .trainers__textarea {
+    margin-left: 100px;
+  }
+}
+@media(max-width: 720px){
+  .menu {
+    display: flex;
+    order: 1;
+  }
+  .header__inner{
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+  }
+  .header__title{
+    margin-left: 0;
+  }
+  .header__phone{
+    padding: 25px 0;
+  }
+  .menu__list {
+    padding-left: 40px;
+    left: 5px;
+  }
+  .yoga__main {
+    justify-content: flex-start;
+  }
+  .yoga-dots .dots-box {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .yoga-img,
+  .reviews-img{
+    display: none !important;
+  }
+  .yoga__textarea{
+    padding:0;
+    margin: 0;
+  }
+  .yoga-dots{
+    left: 360px;
+  }
+  .reviews-dots {
+    top: 250px;
+  }
+  .timetable__block-download{
+    margin-left: 150px;
+  }
+}
+@media(max-width: 690px){
+  .contacts__textarea {
+    position: static;
+  }
+  .contacts__main{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media(max-width: 680px){
+  .reviews__textarea {
+    margin-left: -400px;
+  }
+}
+@media(max-width: 620px){
+  .reviews__textarea {
+    margin-left: -600px;
+  }
+}
+@media(max-width: 615px){
+  .yoga__textarea-title span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .yoga__textarea-title {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .yoga__textarea-text {
+    line-height: 18px;
+  }
+  .yoga-dots {
+    width: 500px;
+    right: 0;
+  }
+  .trainers__textarea {
+    margin-left: 50px;
+  }
+}
+@media(max-width: 600px){
+  .yoga-dots,
+  .trainers-dots,
+  .reviews-dots{
+    display: none;
+  }
+  .page-numbers {
+    display: none;
+  }
+}
+@media(max-width: 570px){
+  .trainers__textarea-title,
+  .trainers__textarea-descr,
+  .trainers__textarea-text{
+    text-align: center;
+  }
+  .trainers__textarea {
+    margin-left: 10px;
+  }
+}
+@media(max-width: 560px){
+  .first__screen-title {
+    font-size: 110px;
+    padding-bottom: 25px;
+  }
+  .page-side__bar-top{
+    display: none;
+  }
+  .first__screen-inner{
+     flex-direction: column;
+   }
+  .first__screen-main {
+    padding: 0;
+  }
+  .page-numbers span {
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+    padding-left: 0;
+  }
+  .discount-img {
+    width: 45%;
+  }
+}
+@media(max-width: 525px){
+  .trainers__textarea {
+    margin-left: -100px;
+  }
+  .reviews__textarea {
+    margin-left: -900px;
+    margin-top: 105px;
+  }
+}
+@media(max-width: 500px){
+  .timetable__block-download {
+    margin-left: 50px;
+  }
+}
+@media(max-width: 480px){
+  .first__screen-title{
+    font-size: 90px;
+  }
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__inner {
+    margin-top: 25px;
+  }
+  .footer__socials{
+    margin-bottom: 10px;
+  }
+  .discount__main {
+    margin-top: 100px;
+  }
+  .contacts__btn{
+    margin-left: -20px;
+  }
+}
+@media(max-width: 450px){
+  .discount__textarea-title {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .discount__textarea-text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .pricing-tariff {
+    width: 200px;
+    height: 90px;
+    font-size: 14px;
+  }
+}
+@media(max-width: 430px){
+  .trainers__textarea {
+    margin-left: -150px;
+  }
+}
+@media(max-width: 410px){
+  .yoga__textarea {
+    max-width: 360px;
+  }
+  .pricing__main {
+    margin-right: -40px;
+  }
+  .timetable__block-download {
+    margin-left: 0;
+  }
+}
+@media(max-width: 380px){
+  .first__screen-descr {
+    font-size: 12px;
+  }
+  .first__screen-subtitle {
+    font-size: 18px;
+  }
+  .trainers__textarea {
+    margin-left: -180px;
+  }
+  .pricing-tariff {
+    width: 180px;
+    height: 80px;
+    font-size: 12px;
+  }
+}
+@media(max-width: 370px){
+  .yoga__textarea {
+    max-width: 330px;
+  }
+  .reviews__textarea {
+    margin-left: -1000px;
+  }
+}
+@media(max-width: 360px){
+  .trainers__textarea-text{
+    padding-right: 10px;
+  }
+  .trainers__textarea-text {
+    font-size: 14px;
+  }
+  .trainers__textarea-descr {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .trainers__btn::after {
+    width: 270px;
+  }
+  .trainers__textarea-title {
+    font-size: 26px;
+  }
+  .timetable__block-download {
+    font-size: 24px;
+  }
+}
+@media(max-width: 350px){
+  .pricing-tariff {
+    width: 160px;
+    height: 80px;
+  }
+  .pricing__box-btn{
+    left: 14px;
+  }
+  .pricing__main {
+    margin-right: 0px;
+  }
+}
+@media(max-width: 340px) {
+  .yoga__textarea {
+    max-width: 300px;
+  }
+}

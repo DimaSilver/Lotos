@@ -1,0 +1,245 @@
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow: hidden !important;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+ul,
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+  font-size: inherit;
+}
+body{
+  background-color: #fbf5f4;
+  color: #000;
+}
+.container{
+  max-width: 1760px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-wrapper{
+  display: flex;
+}
+.header{
+  padding: 10px 0;
+  &__inner{
+    font-size: 18px;
+    @extend %geometria-regular;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    margin-left: 225px;
+    position: relative;
+    padding-left: 16px;
+    &::before{
+      position: absolute;
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #f78e6a;
+      left: 0;
+      top: 6px;
+    }
+  }
+  &__phone{
+    @extend %monserat-regular;
+  }
+}
+.menu{
+  z-index: 8;
+  position: relative;
+  &__title{
+    padding-left: 40px;
+    transition: all .6s;
+    &::before{
+      position: absolute;
+      content: "";
+      background-image: url('../images/menu.svg');
+      top: 4px;
+      left: 0;
+      width: 24px;
+      height: 16px;
+    }
+  }
+  &__close{
+    position: absolute;
+    left: 0;
+    display: none;
+    z-index: 6;
+  }
+  &__list{
+    display: none;
+    font-size: 16px;
+    z-index: 5;
+    position: absolute;
+    padding-left: 40px;
+    color: rgba(#000, .5);
+    top: 4px;
+     li + li {
+       margin-top: 30px;
+     }
+   }
+  &__list-item-1.active,
+  &__list-item-2.active,
+  &__list-item-3.active,
+  &__list-item-4.active,
+  &__list-item-5.active,
+  &__list-item-6.active,
+  &__list-item-7.active{
+    color: rgba(#000, 1);
+  }
+  &.active {
+      .menu__title{
+        opacity: 0;
+        &::before{
+        display: none;
+        }
+      }
+    .menu__close{
+          display: block;
+          top: 0;
+        }
+    }
+}
+.page-numbers{
+  display: flex;
+  flex-direction: column;
+  @extend %geometria-light;
+  font-size: 72px;
+  background: linear-gradient(0deg, #f78e6a, #fc66a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  span{
+    font-size: 30px;
+    padding-left: 10px;
+  }
+}
+.btn{
+  display: inline-block;
+  z-index: 5;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(0deg, #f78e6a, #fc66a2);
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url('../images/plus.svg');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: 20px;
+    left: 20px;
+  }
+}
+.slider{
+  max-width: 1130px;
+  margin-left: 150px;
+  position: relative;
+}
+.footer{
+  padding: 10px 0;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__socials{
+    @extend %monserat-regular;
+    font-size: 10px;
+    a + a{
+      margin-left: 30px;
+    }
+  }
+  &__scroll{
+    @extend %geometria-regular;
+    font-size: 15px;
+    position: relative;
+    padding-right: 40px;
+    transition: all .5s;
+    &::after{
+      position: absolute;
+      content: "";
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: linear-gradient(0deg, #f78e6a, #fc66a2);
+      right: 0;
+      top: -7px;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background-image: url('../images/arrow-down.svg');
+      right: 12px;
+      z-index: 5;
+      top: 6px;
+    }
+    &:hover{
+      &::after{
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      }
+      &::before{
+        background-image: url('../images/arrow-down-hover.svg');
+      }
+    }
+  }
+}
+.page-btn{
+  position: relative;
+  margin-top: 50px;
+
+  &::after{
+    position: absolute;
+    content: "";
+    background-color: #f78e6a;
+    border-radius: 50px;
+    height: 60px;
+    left: 0;
+    transition: all .5s;
+  }
+  &:hover{
+    &::after{
+      box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+    }
+   }
+}
+.btn-name{
+  @extend %geometria-regular;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  z-index: 6;
+  left: 80px;
+}
